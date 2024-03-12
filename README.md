@@ -64,7 +64,7 @@ Run the script without making any changes. Default `false`.
   with:
       owner-type: org # or user
       token: ${{ secrets.PAT_TOKEN }}
-      repository_owner: ${{ github.repository_owner }}
+      repository-owner: ${{ github.repository_owner }}
       delete-untagged: true
 ```
 
@@ -74,7 +74,7 @@ Run the script without making any changes. Default `false`.
   with:
       owner-type: org # or user
       token: ${{ secrets.PAT_TOKEN }}
-      repository_owner: ${{ github.repository_owner }}
+      repository-owner: ${{ github.repository_owner }}
       package-name: test-image
       delete-untagged: true
 ```
@@ -85,7 +85,7 @@ Run the script without making any changes. Default `false`.
   with:
     owner-type: org # or user
     token: ${{ secrets.PAT_TOKEN }}
-    repository_owner: ${{ github.repository_owner }}
+    repository-owner: ${{ github.repository_owner }}
     repository-name: ${{ github.repository }}
     delete-untagged: false
     keep-at-most: 5
@@ -97,7 +97,7 @@ Run the script without making any changes. Default `false`.
   with:
       owner-type: org # or user
       token: ${{ secrets.PAT_TOKEN }}
-      repository_owner: ${{ github.repository_owner }}
+      repository-owner: ${{ github.repository_owner }}
       package-name: test-image
       delete-untagged: true
       keep-at-most: 5
